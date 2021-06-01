@@ -10,7 +10,7 @@ Por exemplo, qual será a idade de uma pessoa que nasceu no dia 12/06/2000 compa
 * Data: 01/01/2011, Idade = 10 ano(s).
 * Data: 01/06/2021, Idade = 20 ano(s).
 
-O programa não deve permitir a entrada de dados inválidos como: dia, mês ou ano **menor ou igual** a zero. Verifique também se a data atual é **maior** que a data de nascimento.
+O programa não deve permitir a entrada de dados inválidos como: dia, mês ou ano **menor ou igual** a zero. Verifique também se o ano atual é **maior** que o ano de nascimento.
 
 **OBSERVAÇÃO 1**: Faça esse programa no Replit ou em outro editor com compilador C/C++ (Codeblocks, DevC++, Cpp.sh ou OnlineGDB) de sua escolha. Atualize somente o main.cpp no GitHub para que os testes sejam realizados.
 
