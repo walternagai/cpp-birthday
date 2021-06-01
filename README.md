@@ -1,12 +1,16 @@
-# cpp-alarm-app
+# cpp-birthday
 
-Nos dias atuais, um app de alarme é encontrado em qualquer smartphone e serve para alertar o usuário de algum compromisso. A partir de um horário atual ou inicial, deve-se colocar o horário pretendido para acionar o alarme. O app calcula a diferença de tempo e mostra ao usuário como uma notificação.
+O aniversário de alguém sempre é cercado por festa, pois é uma celebração do dia de nascimento.
 
-Escreva um programa em linguagem C/C++ que simule o funcionamento de um app de alarme. 
+Escreva um programa em C/C++, que calcule a idade de uma pessoa a partir da data de seu nascimento comparada com uma data qualquer. 
 
-O programa deve ler um horário inicial, um horário de alarme, calcular o tempo para acionar o alarme e mostrar esse tempo calculado.
+Por exemplo, qual será a idade de uma pessoa que nasceu no dia 12/06/2000 comparada com as seguintes datas:
 
-Os horários a serem lidos obedecem o padrão de 0h a 23h e 0min a 59min.
+* Data: 12/06/2021, Idade = 21 ano(s).
+* Data: 01/01/2011, Idade = 10 ano(s).
+* Data: 01/06/2021, Idade = 20 ano(s).
+
+O programa não deve permitir a entrada de dados inválidos como: dia, mês ou ano **menor ou igual** a zero. Verifique também se a data atual é **maior** que a data de nascimento.
 
 **OBSERVAÇÃO 1**: Faça esse programa no Replit ou em outro editor com compilador C/C++ (Codeblocks, DevC++, Cpp.sh ou OnlineGDB) de sua escolha. Atualize somente o main.cpp no GitHub para que os testes sejam realizados.
 
@@ -14,8 +18,8 @@ Os horários a serem lidos obedecem o padrão de 0h a 23h e 0min a 59min.
 
 # Exemplos
 
-* Horário inicial: 5 15; Horário de alarme: 7 0; A mensagem mostrada deve ser: 1 hora(s) e 45 minuto(s).
-* Horário inicial: 0 -1; A mensagem mostrada deve ser: Horario inicial invalido.
-* Horário inicial: 12 15; Horário de alarme: 24 0; A mensagem mostrada deve ser: Horario de alarme invalido.
-* Horário inicial: 19 0; Horário de alarme: 6 30; A mensagem mostrada deve ser: 11 hora(s) e 30 minuto(s).
-* Horário inicial: 0 1; Horário de alarme: 23 59; A mensagem mostrada deve ser: 23 hora(s) e 58 minuto(s).
+* Data de aniversário: 12 6 2000, Data atual: 11 6 2001. A mensagem será: Idade = 0 ano(s).
+* Data de aniversário: 12 6 2000, Data atual: 12 6 2005. A mensagem será: Idade = 5 ano(s).
+* Data de aniversário: 12 6 2000, Data atual: 12 7 2010. A mensagem será: Idade = 10 ano(s).
+* Data de aniversário: 1 1 2000, Data atual: 31 12 2031. A mensagem será: Idade = 31 ano(s).
+* Data de aniversário: 12 2 1976, Data atual: 1 6 2021. A mensagem será: Idade = 45 ano(s).
