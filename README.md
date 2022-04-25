@@ -12,10 +12,6 @@ Por exemplo, qual será a idade de uma pessoa que nasceu no dia 12/06/2000 compa
 
 O programa não deve permitir a entrada de dados inválidos como: dia, mês ou ano **menor ou igual** a zero. Verifique também se o ano atual é **maior** que o ano de nascimento.
 
-**OBSERVAÇÃO 1**: Faça esse programa no Replit ou em outro editor com compilador C/C++ (Codeblocks, DevC++, Cpp.sh ou OnlineGDB) de sua escolha. Atualize somente o main.cpp no GitHub para que os testes sejam realizados.
-
-**OBSERVAÇÃO 2**: O repositório criado estará na organização GitHub [https://github.com/p7-m3-ecoi02-2021-1](https://github.com/p7-m3-ecoi02-2021-1) ou [https://github.com/p8-m3-ecoi02-2021-1](https://github.com/p8-m3-ecoi02-2021-1), dependendo de sua turma prática.
-
 # Exemplos
 
 * Data de aniversário: 12 6 2000, Data atual: 11 6 2001. A mensagem será: Idade = 0 ano(s).
